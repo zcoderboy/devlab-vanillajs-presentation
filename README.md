@@ -1,5 +1,5 @@
 # DevLab JS 
-Regroupe les exemples utilisés pour la présentation de Vanilla JS du serveur Discord DevLab.
+Regroupe les exeemples utilisés pour la présentation de Vanilla JS du serveur Discord DevLab.
 
 ## 1. Manipulation du DOM
 

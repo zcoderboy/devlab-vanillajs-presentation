@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple 1</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container py-5">
+    <div class="d-flex justify-content-between mb-4">
+      <h2>Les régions choisies</h2>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#regionModal">
+        Choisir une région
+      </button>
+    </div>
+    <div class="row" id="content">
+      <div class="col-12 col-md-4 col-lg-3 mb-3">
+        <div class="card">
+          <img class="card-img-top" src="https://media.routard.com/image/84/3/photo.1551843.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Saint-Louis</h5>
+            <p class="card-text">Saint-Louis est une ville située sur la côte nord-ouest du Sénégal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="regionModal" tabindex="-1" role="dialog" aria-labelledby="regionModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content px-md-4">
+        <div class="modal-header">
+          <h5 class="modal-title" id="regionModalLabel">Région du Senegal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body py-5">
+          <div class="row" id="region-wrapper">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
