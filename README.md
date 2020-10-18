@@ -2,7 +2,9 @@
 Le DOM (Document Object Model) est une API utilisé pour décrire la structure logique des documents HTML et comment ces derniers sont accédés et manipulés.
 
 Le JavaScript utilise cette API pour faciliter la manipulation des différents éléments d'une page Web. Le Document Object est un objet qui représente la page HTML actuellement chargé dans le navigateur et représente l’objet de base pour tous les opérations de manipulation du DOM en JavaScript.<br/>
+
 Voici une représentation de l’objet document<br/>
+
 ![document image](./doc.png)
 
 Bien que l’on retrouve beaucoup de proriétés et de méthodes dans l’objet document, nous allons voir simplement les méthodes les plus courantes utilisées pour cibler et récupérer un noeud de l’arborescence HTML.
