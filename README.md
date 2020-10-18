@@ -1,5 +1,5 @@
 # Manipulation DOM 
-Le DOM (Document Object Model) est une API utilisée pour décrire la structure logique des documents HTML et comment ces derniers sont accédés et manipulés.
+Le DOM (Document Object Model) est une API utilisé pour décrire la structure logique des documents HTML et comment ces derniers sont accédés et manipulés.
 
 Le JavaScript utilise cette API pour faciliter la manipulation des différents éléments d'une page Web. Le Document Object est un objet qui représente la page HTML actuellement chargé dans le navigateur et représente l’objet de base pour tous les opérations de manipulation du DOM en JavaScript.<br/>
 Voici une représentation de l’objet document<br/>
