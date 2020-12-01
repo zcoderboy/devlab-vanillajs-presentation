@@ -9,7 +9,7 @@ Dans cette section nous allons parcourir quelques features ES6 et expliquer leur
  Les mots clés **let** et **const** sont utilisés pour déclarer des variables, mais leur fonctionnement différe.
  
  - **let** est utilisé principalement lorsque l'on veut avoir une variable dont le scope lexical est limité à un bloc de code. Les variables déclarées avec let ne sont pas "hoisted" contrairement à celles déclarées avec **var**, si on tente d'utiliser celles-ci avant leur déclaration on obtient une erreur de type **ReferenceError**.
- - **const** est utilisé pour déclarer une variable dont la valeur est "immutable" (oui entre guillemets) c'est à dire que la référence ne pourra pas changer durant l'exécution du programme. Cependant si cette valeur est un objet ou un tableau, on peut ajouter des propriétés ou des valeurs.
+ - **const** est utilisé pour déclarer une variable dont la valeur est "immutable" (oui entre guillemets) c'est à dire que la référence ne pourra pas changer durant l'exécution du programme. Cependant si cette valeur est un objet ou un tableau, on peut ajouter des propriétés ou des valeurs.<br/>
  *NB: let et const ne sont pas "hoisted"*
  
  **2. Le type Symbol**<br/>
