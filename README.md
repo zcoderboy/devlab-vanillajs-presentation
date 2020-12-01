@@ -22,10 +22,6 @@ Dans cette section nous allons parcourir quelques features ES6 et expliquer leur
  L'interpolation permet d'utiliser des espaces reservés dans une chaine de charactéres (string literal). Pour utiliser une interpolation dans une chaine, il faut l'entourer des backticks: **``**.
 ```javascript
 var text = `Welcome to DevLab ${firstName} ${lastName}`;
-$("#post").html`
-  <h1>${text}</h1>
-  ${body}
-`;
 ```
  **5. Les classes**
  
