@@ -18,7 +18,8 @@ Dans cette section nous allons parcourir quelques features ES6 et expliquer leur
  
  **3. Les fonctions fléchées**
  
- **4. L'interpolation**
+ **4. L'interpolation**<br/>
+ 
  L'interpolation permet d'utiliser des espaces reservés dans une chaine de charactéres (string literal). Pour utiliser une interpolation dans une chaine, il faut l'entourer des backticks: **``**.
 ```javascript
 var text = `Welcome to DevLab ${firstName} ${lastName}`;
