@@ -5,13 +5,15 @@ Il est aussi possible d'utiliser des outils de transpilation afin de convertir d
 Dans cette section nous allons parcourir quelques features ES6 et expliquer leur fonctionnement.
 
  **1. let et const**<br/>
+ 
  Les mots clés **let** et **const** sont utilisés pour déclarer des variables, mais leur fonctionnement différe.
  
  - **let** est utilisé principalement lorsque l'on veut avoir une variable dont le scope lexical est limité à un bloc de code. Les variables déclarées avec let ne sont pas "hoisted" contrairement à celles déclarées avec **var**, si on tente d'utiliser celles-ci avant leur déclaration on obtient une erreur de type **ReferenceError**.
  - **const** est utilisé pour déclarer une variable dont la valeur est "immutable" (oui entre guillemets) c'est à dire que la référence ne pourra pas changer durant l'exécution du programme. Cependant si cette valeur est un objet ou un tableau, on peut ajouter des propriétés ou des valeurs.
  *NB: let et const ne sont pas "hoisted"*
  
- **2. Le type Symbol**
+ **2. Le type Symbol**<br/>
+ 
  Symbol est un nouveau type primitif ajouté dans le ES6 qui permet de réprésenter des valeurs uniques et immutables. Son but principal est d'éviter les collisions entre des propriétés qui pourraient avoir le même nom limitant ainsi le risque d'introduction de bogues dans les programmes JavaScript.
  
  **3. Les fonctions fléchées**
