@@ -4,7 +4,7 @@ Bien qu'il n'existe pas encore un support complet des fonctionnalités du ES6 da
 Il est aussi possible d'utiliser des outils de transpilation afin de convertir du ES6 en ES5 afin d'avoir une meilleure couverture sur des navigateurs comme Internet Explorer par exemple.
 Dans cette section nous allons parcourir quelques features ES6 et expliquer leur fonctionnement.
 
- **1. let et const**
+ **1. let et const**<br/>
  Les mots clés **let** et **const** sont utilisés pour déclarer des variables, mais leur fonctionnement différe.
  
  - **let** est utilisé principalement lorsque l'on veut avoir une variable dont le scope lexical est limité à un bloc de code. Les variables déclarées avec let ne sont pas "hoisted" contrairement à celles déclarées avec **var**, si on tente d'utiliser celles-ci avant leur déclaration on obtient une erreur de type **ReferenceError**.
