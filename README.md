@@ -51,5 +51,37 @@ class DiscordServer {
 }	
 ```
  
- **6. Les modules**
+ **6. Les modules**</br>
+
+ Les modules servent à résoudre un probléme spécifique du JS à savoir : comment séparer et réutiliser du code Javascript ?<br/>
+En effet, le Javascript peut être trés volumineux et difficile à gérer si certains éléments ne sont pas modularisés et partagés à travers le code.<br/>
+Avec l'introduction d'un systéme de modules dans le ES6, il était donc question d'ammener cette fonctionnalité dans le navigateur car des environnements comme NodeJS supportait déja un systéme de modules avec des projets comme AMD, CommonJS ou encore RequireJS.<br/>
+Les deux mots-clés ``export`` et ``import`` permettent alors d'exporter et d'importer un élément Javascript.<br/>
+Les exportations peuvent être nommées ou par défaut.
+- Les exportations nommées
+ 
+Un export est nommé lorsque le nom utilisé pour l'exportation est le même que celui utilisé pendant l'importation.
+On a donc l'exemple ci-dessous  à l'exportation
+```javascript
+export function sayHello(){}
+export const name = "Default name"
+```
+Pour importer ces éléments, la syntaxe ci-dessous est utilisée
+```javascript
+import { sayHello, name } from '../file-path'
+```
+- Les exportations par défaut
+
+Un export par défaut est utilisé quand on souhaite exporter un seul élément d'un module spécifique. Un module peut avoir un seul export par défaut mais peut utilisé plusieurs exportations nommés.
+```javascript
+export default serverName = "DevLab"
+//Importation
+import serverName from '../file-path'
+```
+À noter que l'on peut aussi créer des alias à l'exportation et à l'importation pour éviter des collisions avec le mot-clé `as` ou encore importer tous les éléments d'un module.
+
+**Lien utiles**<br/>
+[ES6 features](http://es6-features.org)<br/>
+[TC39 proposals](https://github.com/tc39/proposals)<br/>
+[TC39](https://tc39.es/)
 
