@@ -28,10 +28,10 @@ var text = `Welcome to DevLab ${firstName} ${lastName}`;
  **5. Les classes**<br/>
 
 Les classes en JavaScipt ne sont rien de plus que du sucre syntaxique autour du systéme de prototype qu'utilise réellement le langage.
-Toute entité en JS posséde un prototype de base qui contient des propriétés et méthodes partagées entre les objets du même type.
-Le langage s'appuie sur ce mécanisme pour fournir un systéme d'héritage, il est donc possible pour des entités du même type de surcharger les méthodes qui sont définis dans leur prototype.
-Par défaut si toutefois une propriété ou une méthode ne se trouve pas directement dans un objet par exemple, il est automatiquement recherché dans son prototype, puis dans le prototype de son prototype et ainsi de suite. 
-C'est ce que l'on appelle en JS la chaine de prototype (prototype chain).
+Toute entité en JS posséde un prototype de base qui contient des propriétés et méthodes partagées entre les objets du même type.</br>
+Le langage s'appuie sur ce mécanisme pour fournir un systéme d'héritage, il est donc possible pour des entités du même type de surcharger les méthodes qui sont définis dans leur prototype.<br/>
+Par défaut si toutefois une propriété ou une méthode ne se trouve pas directement dans un objet par exemple, il est automatiquement recherché dans son prototype, puis dans le prototype de son prototype et ainsi de suite.
+C'est ce que l'on appelle en JS la chaine de prototype (prototype chain).<br/> 
 Il est important de bien comprendre comment ce systéme de prototype fonctionne afin de mieux appréhender le langage car même si syntaxiquement on peut utiliser les classes en JS, le fonctionnement différe quand même des autres langages de programmation.
 ```javascript
 class DiscordServer {
