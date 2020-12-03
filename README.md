@@ -17,8 +17,8 @@ Dans cette section nous allons parcourir quelques features ES6 et expliquer leur
  Symbol est un nouveau type primitif ajouté dans le ES6 qui permet de réprésenter des valeurs uniques et immutables. Son but principal est d'éviter les collisions entre des propriétés qui pourraient avoir le même nom limitant ainsi le risque d'introduction de bogues dans les programmes JavaScript.
  
  **3. Les fonctions fléchées**<br/>
- 
- Les fonctions fléchées sont une alternative aux expressions de fonction. Elles sont souvent utilisées de façon anonyme c'est à dire qu'elles ne portent pas de nom.
+
+ Les fonctions fléchées sont une alternative aux expressions de fonction. Elles sont souvent utilisées de façon anonyme c'est à dire qu'elles ne portent pas de nom.<br/>
 Ces fonctions ont un comportement spécial quant à leur binding `this` car elles n'en possédent pas, ces derniéres utilisent automatiquement celui du scope qui les englobe.
 ```javascript
 () => { console.log('I am an arrow function') }
