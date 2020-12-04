@@ -1,21 +1,15 @@
-# DevLab JS 
-Regroupe les exemples utilisés pour la présentation de Vanilla JS du serveur Discord DevLab.
+Une petite librairie utilisée pour faire des requêtes HTTPs en utilisant l'objet ``XMLHttpRequest`` de Javascript.
+La librairie est basé sur les promesses et s'inspire de [axios](`https://github.com/axios/axios).
 
-## 1. Manipulation du DOM
+**Méthodes**
+```javascript
+ requester.get('url').then(callback)
+ requester.post('url',data).then(callback)
+```
+Elle implémente pour le moment juste le ``GET`` et le `POST`.
 
-Dans cette section nous couvrirons quelques APIs de manipulation du DOM (Document Object Model).
-Nom de la branche : **dom-manipulation**
+Cette exemple montre son utilisation pour fetcher des données d'une API tierce, les sources de la librairie se trouvent dans le fichier **requester.mjs**.
 
-## 2. Quelques fonctionnalités ES6
-Nous découvrirons quelques fonctionnalités de ES6.
-Nom de la branche : **es6-features**
+Vous pouvez le récupérer et ajouter d'autes méthodes comme le `PUT` ou le `PATCH`.
 
-## 3. Récupération de données via les APIs du navigateur
-
-Dans cette section, nous utiliserons les APIs du navigateur pour récupérer des données d'une API.
-Nom de la branche : **data-fetching**
-
-## 4. Création d'un client HTTP (requester)
-
-Enfin nous allons voir l'utilisation de ces concepts pour la création d'un client HTTP.
-Nom de la branche : **requester**
+Hack it away 👨‍💻.
