@@ -1,4 +1,4 @@
-Une petite librairie utilisée pour faire des requêtes HTTPs en utilisant l'objet ``XMLHttpRequest`` de Javascript.
+Un petit module utilisé pour faire des requêtes HTTPs en utilisant l'objet ``XMLHttpRequest`` de Javascript.
 La librairie est basé sur les promesses et s'inspire de [axios](`https://github.com/axios/axios).
 
 **Méthodes**
